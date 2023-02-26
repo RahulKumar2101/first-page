@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    font-family: Inconsolata;
+    margin: 20px 0px 0px 20px;
+}
+.container {
+    height: 80vh;
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+    justify-content: space-around;
+
+} 
+.image {
+    height: 173px;
+    width: 144px;
+    padding-left: 26px;
+}
+
+.header {
+    font-family: 'space mono';
+    padding-left: 250px;
+}
+
+button {
+    font-family: 'Space Mono';
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+.paragraph {
+    font-size: 34px;
+}
+
+center {
+    margin-top: 10px;
+    
+}
+
+.btn{
+    margin-left: 172px;
+   
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+
+
+    .container {
+        width: 100vw;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+      
+        /* flex-wrap: wrap; */
+    }
+
+    .image {
+        height: 150px;
+        width: 150px;
+        padding-left: 10px;
+        
+        margin-top: -160px;
+    }
+
+    h1 {
+        font-size: 40px;
+        
+    }
+
+    .para {
+        font-size: 15px;
+    }
+
+    .text {
+        height: 73vh;
+        padding-left: 40px;
+       
+        margin-top: -800px;
+    }
+
+    center{
+        margin-top: -387px;
+    }
+
+    
+}  
